@@ -1,7 +1,7 @@
 /* =========================================================
 
 Practical Name: Smallest Missing Non-Negative Number
-File Name: missingnum.cpp
+File Name: binarynonnegative.cpp
 
 Problem:
 Given a sorted array of distinct non-negative integers, find the smallest missing non-negative number using binary search.
@@ -71,7 +71,7 @@ Index different from value means save answer and go left.
 
 /* =========================================================
 2. Practical Name: Count Occurrences using Binary Search
-File Name: countocc.cpp
+File Name: binarycount.cpp
 
 Problem:
 Given a sorted array with duplicate values, count how many times a given number occurs.
@@ -150,7 +150,7 @@ Count = last - first + 1.
 
 /* =========================================================
 3. Practical Name: Find Middle Node of Linked List
-File Name: midnode.cpp
+File Name: linkreturn.cpp
 
 Problem:
 Find middle node of singly linked list.
@@ -233,7 +233,7 @@ Count nodes, middle = count/2 + 1, go to middle.
 
 /* =========================================================
 4. Practical Name: Delete Middle Node of Linked List
-File Name: delmiddle.cpp
+File Name: linkdelete.cpp
 
 Problem:
 Delete middle node from singly linked list.
@@ -297,7 +297,7 @@ Count, middle, previous, skip, delete.
 
 /* =========================================================
 5. Practical Name: Insert Second List into First List at Alternate Positions
-File Name: altinsert.cpp
+File Name: linkalter.cpp
 
 Problem:
 Insert nodes of second linked list into first linked list at alternate positions.
@@ -364,7 +364,7 @@ Save both nexts, insert second after first, connect back, move.
 
 /* =========================================================
 6. Practical Name: Queue using Linked List
-File Name: queueLL.cpp
+File Name: queue.cpp
 
 Problem:
 Implement queue using linked list.
@@ -445,7 +445,7 @@ Enqueue rear, dequeue front.
 
 /* =========================================================
 7. Practical Name: Move Last Node to Front
-File Name: lastfront.cpp
+File Name: lasttofirst.cpp
 
 Problem:
 Move last node of singly linked list to front.
@@ -551,7 +551,7 @@ Count from 0, move node by node, print when count equals index.
 
 /* =========================================================
 9. Practical Name: Reverse String using Stack
-File Name: reversestac.cpp
+File Name: reversestack.cpp
 
 Problem:
 Reverse a string using stack.
@@ -607,7 +607,7 @@ Stack is empty.
 
 In main:
 string str stores original string.
-string rev stores reversed string.
+string rev stores reversedstring.
 
 for loop:
 Pushes each character of string into stack.
@@ -730,7 +730,7 @@ Three passes means outer loop runs 3 times only.
 
 /* =========================================================
 12. Practical Name: Book Search by Author
-File Name: bookauthor.cpp
+File Name: book.cpp
 
 Problem:
 Search book records by author name using linear search.
@@ -802,7 +802,7 @@ Book author search = array of Book + compare author.
 
 /* =========================================================
 13. Practical Name: Railway Network Database
-File Name: railwaydb.cpp
+File Name: railway.cpp
 
 Problem:
 Store railway information such as stations, tracks, train ID, train name, and schedule.
@@ -854,7 +854,7 @@ Railway record = station1, station2, trainId, trainName, time.
 
 /* =========================================================
 14. Practical Name: Car Rental System using Selection Sort
-File Name: carsort.cpp
+File Name: car.cpp
 
 Problem:
 Arrange cars according to price in ascending order using selection sort.
@@ -914,7 +914,7 @@ Selection sort = select minimum and swap.
 
 /* =========================================================
 15. Practical Name: Patient Record Sorting using Bubble Sort
-File Name: patientsort.cpp
+File Name: patientrecord.cpp
 
 Problem:
 Arrange patients according to names in alphabetical order using bubble sort.
@@ -974,7 +974,7 @@ Bubble sort names = compare side-by-side and swap.
 
 /* =========================================================
 16. Practical Name: Balanced Brackets using Stack
-File Name: bracketstk.cpp
+File Name: bracket.cpp
 
 Problem:
 Check whether brackets (), {}, [] are balanced or not.
@@ -1203,7 +1203,7 @@ Unsorted list means linear search.
 
 /* =========================================================
 20. Practical Name: Cinema Seat Availability using Binary Search
-File Name: seatsearch.cpp
+File Name: cinema.cpp
 
 Problem:
 Check if chosen seat is available from sorted seat list using binary search.
@@ -1276,7 +1276,7 @@ Middle check, bigger go right, smaller go left.
 
 /* =========================================================
 21. Practical Name: Polynomial Addition using Linked List
-File Name: polyadd.cpp
+File Name: poly.cpp
 
 Problem:
 Add two polynomials using singly linked list.
@@ -1380,7 +1380,7 @@ Bigger power copy directly.
 
 /* =========================================================
 22. Practical Name: Postfix Evaluation using Stack
-File Name: postfixeval.cpp
+File Name: postfix.cpp
 
 Problem:
 Evaluate postfix expression using stack.
@@ -1457,7 +1457,7 @@ Operator pop two, solve, push answer.
 
 /* =========================================================
 23. Practical Name: Patient Queue using Array
-File Name: patientq.cpp
+File Name: patientqueue.cpp
 
 Problem:
 Manage patient queue using queue data structure.
@@ -1533,7 +1533,7 @@ Old patient removed from front.
 
 /* =========================================================
 24. Practical Name: Browser History using Stack
-File Name: browserstk.cpp
+File Name: history.cpp
 
 Problem:
 Manage browser history using stack.
